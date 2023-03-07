@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navigation from './routers/Navigation';
 
 function App() {
   return (
-    <div className=" py-20 font-mono font-extrabold text-center text-6xl text-emerald-400">
-      <div>NFTERS</div>
+    <div>
+      <Router>
+        <Routes>
+          <Route path={'/'} element={<Navigation />} ></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
