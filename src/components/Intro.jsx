@@ -6,9 +6,9 @@ import Profile from './../assets/man.png'
 const Intro = () => {
     return (
         <div>
-            <div className='flex flex-col px-4 mx-auto my-10 lg:px-32 lg:grid lg:grid-cols-2 lg:gap-20 '>
-                <div className='w-3/4 pb-24 ml-48 lg:pb-0 lg:order-2'>
-                    <div className='container relative bg-white w-72 h-72'>
+            <div className='flex flex-col px-4 mx-auto my-10 lg:px-48 lg:grid lg:grid-cols-2 lg:gap-20 '>
+                <div className='w-3/4 pb-24 ml-20 lg:ml-48 lg:pb-0 lg:order-2'>
+                    <div className='container relative w-64 bg-white lg:w-72 h-72'>
                         <img src={nfts1} alt="" className='absolute top-0 w-full h-72 right-30 rounded-xl' />
                         <img src={nfts2} alt="" className='absolute top-0 w-full h-full right-10 rounded-xl' />
                         <img src={nfts1} alt="" className='absolute top-0 w-full h-full right-20 rounded-xl' />

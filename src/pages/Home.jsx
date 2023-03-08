@@ -1,9 +1,13 @@
 import React from 'react'
 import Intro from '../components/Intro'
+import Description from '../components/Description'
 
 const Home = () => {
     return (
-        <div><Intro /></div>
+        <div className=''>
+            <Intro />
+            <Description />
+        </div>
     )
 }
 
