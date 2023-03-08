@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='flex flex-col gap-10'>
 
-            <div className='flex justify-between px-4 py-5 border-b-2 xl:px-16 bg-'>
+            <div className='flex justify-between px-4 py-5 border-b-2 lg:px-24 bg-'>
                 <div className='flex pt-1 xl:gap-12'>
                     <div className='border-r-2 border-gray-100'>
                         <NavLink className='text-3xl font-bold text-indigo-700 xl:pr-5'>NFTERS</NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <NavButton />
                     </div>
                     <div className='pt-2 xl:hidden' >
-                        {isToggle ? <AiOutlineMenu onClick={toggleHandler} /> : <RxCross1 onClick={toggleHandler} />}
+                        {isToggle ? <RxCross1 onClick={toggleHandler} /> : <AiOutlineMenu onClick={toggleHandler} />}
                     </div>
                 </div>
 
