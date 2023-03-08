@@ -4,11 +4,11 @@ import Navbar from './Navbar'
 
 const Layout = ({ children }) => {
     return (
-        <div >
+        <div>
             <div>
                 <Navbar />
             </div >
-            <div className='px-24'>{children}</div>
+            <div className='px-32'>{children}</div>
             <div><BottomNav /></div>
         </div>
     )
