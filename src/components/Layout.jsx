@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
             <div>
                 <Navbar />
             </div >
-            <div >{children}</div>
+            <div className='lg:mx-auto lg:max-w-8xl 2xl:max-w-9xl'>{children}</div>
             <div><BottomNav /></div>
         </div>
     )
