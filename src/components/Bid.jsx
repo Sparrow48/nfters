@@ -28,7 +28,7 @@ const Bid = () => {
             <div className='flex flex-col justify-center gap-10 xl:gap-3 lg:gap-3 2xl:gap-16 lg:flex-row lg:px-4 2xl:12px'>
                 <div className='w-72 h-80'>
                     <img src={selectedBid?.bidImage} alt="" className='w-72 h-80 rounded-xl' />
-                    <div className='flex justify-between gap-3 px-1 pt-2'>
+                    <div className='flex justify-between gap-3 px-1 pt-4'>
                         <div className='flex '>
                             <img src={selectedBid?.profile} className='object-cover w-10 h-10 rounded-full ' alt="" />
                             <div className='pl-2 '>

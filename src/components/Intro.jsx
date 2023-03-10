@@ -112,8 +112,8 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='flex flex-col px-4 gap-7'>
-                    <h1 className='text-4xl font-bold uppercase xl:text-6xl lg:text-5xl'>Discover, And Collect Digital Art Nfts</h1>
-                    <p className='w-3/4 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatum velit, nihil sapiente accusamus unde repellat quam, eos et rem mollitia amet, vel eveniet cupiditate.</p>
+                    <h1 className='text-3xl font-bold uppercase xl:text-4xl lg:text-3xl'>Discover, And Collect Digital Art Nfts</h1>
+                    <p className='w-full 2xl:w-3/4 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatum velit, nihil sapiente accusamus unde repellat quam, eos et rem mollitia amet, vel eveniet cupiditate.</p>
                     <div>
                         <button className='px-5 py-3 bg-indigo-600 active:bg-indigo-800 rounded-3xl'>Explore Now</button>
                     </div>
