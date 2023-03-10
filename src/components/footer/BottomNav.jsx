@@ -4,7 +4,7 @@ import { MARKET_PLACED, MY_ACCOUNT, SOCIAL_ACCOUNT } from '../../config'
 
 const BottomNav = () => {
     return (
-        <div className='flex flex-col items-start justify-between gap-10 px-4 lg:mx-auto lg:grid lg:grid-rows-1 lg:grid-cols-3 lg:gap-7 lg:max-w-8xl 2xl:max-w-9xl lg:px-32'>
+        <div className='flex flex-col items-start justify-between gap-10 px-4 pb-10 lg:mx-auto lg:grid lg:grid-rows-1 lg:grid-cols-3 lg:gap-7 lg:max-w-8xl 2xl:max-w-9xl lg:px-32'>
             <div className=' lg:pr-8'>
                 <h1 className='pb-3 text-2xl font-bold xl:pb-6' >NFTERS</h1>
                 <p className='text-justify text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur corrupti deleniti quidem eius iusto dolores cupiditate impedit recusandae temporibus inventore.</p>

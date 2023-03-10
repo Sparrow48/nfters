@@ -17,14 +17,14 @@ const Description = () => {
                         <RxFileText className='text-2xl ' />
                         <h1 className='font-medium '>  Fast Transaction</h1>
                     </div>
-                    <p className='pl-8 text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum.</p>
+                    <p className='pl-8 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum.</p>
                 </div>
                 <div className='px-10 '>
                     <div className='flex gap-2 text-xl'>
                         <BsFileEarmarkBarGraph className='text-2xl ' />
                         <h1 className='text-xl font-medium ' > Growth Transaction</h1>
                     </div>
-                    <p className='pl-8 text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum.</p>
+                    <p className='pl-8 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum.</p>
 
                 </div>
 

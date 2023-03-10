@@ -33,11 +33,11 @@ const Bid = () => {
                             <img src={selectedBid?.profile} className='object-cover w-10 h-10 rounded-full ' alt="" />
                             <div className='pl-2 '>
                                 <h4 className='font-bold '>{selectedBid?.name}</h4>
-                                <p className='text-xs '>{selectedBid?.stock} in the stock</p>
+                                <p className='text-xs text-gray-700'>{selectedBid?.stock} in the stock</p>
                             </div>
                         </div>
                         <div>
-                            <p className='text-xs '>Highest Bid</p>
+                            <p className='text-xs text-gray-700'>Highest Bid</p>
                             <div className='flex text-sm'>
                                 <p>{selectedBid?.currencyIcon}</p>
                                 <p className='text-xs '>{selectedBid?.bidAmount} {selectedBid?.currency}</p>
@@ -91,10 +91,10 @@ const Bid = () => {
                                         <p className='text-base text-bold'>{name}</p>
                                         <div className='flex text-sm'>
                                             <p >{selectedBid?.currencyIcon}</p>
-                                            <p className='text-xs '>{bidAmount}</p>
+                                            <p className='text-xs text-gray-600'>{bidAmount}</p>
                                         </div>
                                     </div>
-                                    <p className='text-xl font-semibold text-green-400'>{percentage}</p>
+                                    <p className='text-xl font-semibold text-emerald-300'>{percentage}</p>
                                 </div>
                             )
                         })}
