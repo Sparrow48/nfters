@@ -10,7 +10,7 @@ const Description = () => {
             <div className='grid items-center w-3/4 gap-8 px-4 py-10 mx-auto lg:w-full lg:grid-cols-3 lg:h-72 xl:px-48 lg:py-0'>
 
                 <div className=' px:10 lg:pr-20'>
-                    <p className='text-4xl font-bold uppercase'>The Amazing Art Of The World Here.</p>
+                    <p className='text-3xl font-bold uppercase'>The Amazing Art Of The World Here.</p>
                 </div>
                 <div className='px-10 '>
                     <div className='flex gap-2 text-xl'>

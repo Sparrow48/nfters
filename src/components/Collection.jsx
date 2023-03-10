@@ -33,7 +33,7 @@ const Collection = () => {
                         <p className='text-xs '>(Click right side images to see details.)</p>
                     </div>
                     <div>
-                        <div className='grid grid-rows-1 lg:grid-cols-[30%_30%_30%] gap-10 justify-center pt-10'>
+                        <div className='grid grid-rows-1 lg:grid-cols-[32%_32%_32%] gap-8 justify-center pt-10'>
                             {
                                 Object.keys(NFTS_COLLECTIONS)?.map((key) => {
                                     const { collection, item } = NFTS_COLLECTIONS[key]
@@ -41,7 +41,7 @@ const Collection = () => {
                                     const { image, collection_name, profile, name } = selectedItem?.[key]
                                     return (
 
-                                        <div className='grid grid-cols-[60%_35%] lg:grid-cols-[60%_30%] lg:gap-5'>
+                                        <div className='grid grid-cols-[60%_35%]  lg:grid-cols-[60%_30%] gap-5'>
                                             <div className='flex flex-col '>
                                                 <img src={image} alt="" className='object-cover w-full h-5/6 rounded-xl' />
                                                 <div className='flex flex-col gap-1 pt-3'>

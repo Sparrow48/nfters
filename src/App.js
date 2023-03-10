@@ -6,7 +6,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path={'/'} element={<Navigation />} ></Route>
+          <Route path={'/*'} element={<Navigation />} ></Route>
         </Routes>
       </Router>
     </div>
