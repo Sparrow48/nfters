@@ -9,9 +9,9 @@ const effect = 'transition ease-in-out delay-150 bg-blue-500 group-hover:-transl
 const Intro = () => {
     return (
         <div>
-            <div className='flex flex-col px-4 mx-auto my-10 lg:px-48 lg:grid lg:grid-cols-2 lg:gap-20 '>
+            <div className='flex flex-col items-center justify-between px-4 mx-auto my-10 xl:px-48 lg:flex lg:flex-row lg:gap-10 '>
                 <div className='pb-24 ml-20 lg:ml-48 lg:pb-0 lg:order-2'>
-                    <div className='container relative w-64 h-64 bg-white md:w-80 lg:w-96 md:80 lg:h-96'>
+                    <div className='container relative w-64 h-64 text-left bg-white md:w-80 lg:w-96 md:80 lg:h-96'>
 
                         <div className=' group'>
 
@@ -112,7 +112,7 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='flex flex-col px-4 gap-7'>
-                    <h1 className='text-6xl font-bold uppercase'>Discover, And Collect Digital Art Nfts</h1>
+                    <h1 className='text-4xl font-bold uppercase xl:text-6xl lg:text-5xl'>Discover, And Collect Digital Art Nfts</h1>
                     <p className='w-3/4 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatum velit, nihil sapiente accusamus unde repellat quam, eos et rem mollitia amet, vel eveniet cupiditate.</p>
                     <div>
                         <button className='px-5 py-3 bg-indigo-600 active:bg-indigo-800 rounded-3xl'>Explore Now</button>

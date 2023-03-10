@@ -115,4 +115,77 @@ export const COLLECTIONS = {
         percentage: '+2.52%'
 
     },
-} 
+}
+
+export const NFTS_COLLECTIONS = {
+    first: {
+        collection: {
+            1: {
+                collection_name: 'First Collection',
+                name: 'Hasan_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/development/src/assets/profile2.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS10.png'
+            },
+            2: {
+                collection_name: 'Second Collection',
+                name: 'Rofiq_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/man.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS11.png'
+            },
+            3: {
+                collection_name: 'Third Collection',
+                name: 'Nasib_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/development/src/assets/profile2.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS12.png'
+            }
+        },
+        item: 54
+    },
+    second: {
+        collection: {
+            4: {
+                collection_name: 'Fourth Collection',
+                name: 'Asib_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/man.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS13.png'
+            },
+            5: {
+                collection_name: 'Fifth Collection',
+                name: 'Akram_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/development/src/assets/profile2.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS12.png'
+            },
+            6: {
+                collection_name: 'Sixth Collection',
+                name: 'ArKhan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/man.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS10.png'
+            }
+        },
+        item: 54
+    },
+    third: {
+        collection: {
+            7: {
+                collection_name: 'Seventh Collection',
+                name: 'Asad_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/development/src/assets/profile2.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS12.png'
+            },
+            8: {
+                collection_name: 'Eighth Collection',
+                name: 'Arif_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/man.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS11.png'
+            },
+            9: {
+                collection_name: 'Ninth Collection',
+                name: 'Ayan_Khan',
+                profile: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/man.png',
+                image: 'https://raw.githubusercontent.com/Sparrow48/nfters/main/src/assets/NFTS13.png'
+            }
+        },
+        item: 54
+    }
+
+}

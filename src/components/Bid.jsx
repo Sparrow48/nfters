@@ -23,9 +23,9 @@ const Bid = () => {
     }, [BIDING_DATA])
 
     return (
-        <div className='px-4 py-10 lg:px-48 lg:h-96 lg:mb-40'>
+        <div className='px-4 py-10 2xl:px-48 lg:h-96 lg:mb-40'>
             {/* <div className='grid grid-rows-3 gap-5 lg:grid-rows-1 lg:grid-cols-3 lg:px-16'> */}
-            <div className='flex flex-col justify-center gap-10 lg:gap-16 lg:flex-row lg:px-4 2xl:12px'>
+            <div className='flex flex-col justify-center gap-10 xl:gap-3 lg:gap-3 2xl:gap-16 lg:flex-row lg:px-4 2xl:12px'>
                 <div className='w-72 h-80'>
                     <img src={selectedBid?.bidImage} alt="" className='w-72 h-80 rounded-xl' />
                     <div className='flex justify-between gap-3 px-1 pt-2'>
